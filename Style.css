@@ -1,0 +1,69 @@
+body{
+    background-image: url(1.JPG);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px rgb(18, 114, 158);
+}
+img{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    border-color: lightskyblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*button{
+    background-color: lightblue;
+    color: whitesmoke;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    border-radius: 6px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    transition: all 0.3s;
+}*/
+a{
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: medium;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+    padding-right: 3px;
+}
+/*button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+    padding-right: 10px;
+}
+button:active:after{
+    opacity: 1;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}*/
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height: 60px;
+   padding: 10px;
+}
+.footer p{
+    color: white;
+    font-size: medium;
+    text-shadow: none;
+}
